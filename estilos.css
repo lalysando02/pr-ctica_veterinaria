@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+header {
+    background-color: #4CAF50; 
+    padding: 20px;
+    align-items: center; 
+    display: flex; 
+    height: 60px;  
+}
+
+header h1 {
+    color: #ffff00; 
+    margin: 0;
+    font-size: 2em;
+    text-align: left;
+    white-space: nowrap;
+}
+
+header nav {
+    margin: 0 15px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    width: 90%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+.Texto {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.Texto h2 {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.Texto p {
+    font-size: 1.1em;
+    color: #444;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+
+.Imágenes {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Imágenes div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Imágenes img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 3px solid #00ff00;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.Imágenes img:hover {
+    transform: scale(1.05);
+}
+
+
+.Derechos {
+    text-align: center;
+    font-size: 0.9em;
+    color: grey;
+    padding-bottom: 20px;
+}
